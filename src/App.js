@@ -1,3 +1,9 @@
+import DateCounter from "./DateCounter";
+
 export default function App() {
-  return <div>Hello React Quest</div>;
+  return (
+    <div>
+      <DateCounter />
+    </div>
+  );
 }
